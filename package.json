@@ -1,0 +1,37 @@
+{
+  "name": "vite-plumejs",
+  "version": "1.0.0",
+  "description": "a plumejs template with vite",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KiranMantha/vite-plumejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KiranMantha/vite-plumejs/issues"
+  },
+  "homepage": "https://github.com/KiranMantha/vite-plumejs#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.0",
+    "rollup-plugin-swc": "^0.2.0",
+    "sass": "^1.45.1",
+    "vite": "^2.7.4",
+    "vite-tsconfig-paths": "^3.3.17"
+  },
+  "dependencies": {
+    "@plumejs/core": "^3.0.2",
+    "@plumejs/router": "^3.0.1",
+    "@plumejs/ui": "^3.0.1",
+    "bulma": "^0.9.3",
+    "bulma-block-list": "^0.5.0"
+  }
+}

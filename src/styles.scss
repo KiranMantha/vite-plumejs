@@ -1,0 +1,26 @@
+@import "bulma/bulma.sass";
+@import "bulma-block-list/src/block-list.scss";
+
+.container {
+  padding: 0 0.5rem;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.pointer {
+  cursor: pointer;
+}
